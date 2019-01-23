@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd  /etc/yum.repos.d/
 
 yum -y install wget
