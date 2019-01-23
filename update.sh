@@ -16,4 +16,4 @@ mv Centos-7.repo CentOS-Base.repo
 #执行yum源更新命令
 yum clean all
 yum makecache
-yum update
+yum update -y
