@@ -16,4 +16,5 @@ mv Centos-7.repo CentOS-Base.repo
 #执行yum源更新命令
 yum clean all
 yum makecache
-yum update -y
+yum -y update
+yum -y groupinstall "development tools"
