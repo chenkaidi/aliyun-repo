@@ -18,3 +18,5 @@ yum clean all
 yum makecache
 yum -y update
 yum -y groupinstall "development tools"
+yum -y install vim
+yum -y install git
