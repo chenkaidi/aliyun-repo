@@ -4,10 +4,10 @@
 ### 解决办法
 删除rpm数据文件后再重建rpm数据文件，命令如下：
 
-# 删除rpm数据文件 
+###### 删除rpm数据文件 
 rm -f /var/lib/rpm/__db.00*
-# 重建rpm数据文件 
+###### 重建rpm数据文件 
 rpm -vv --rebuilddb
-# 清空缓存后再重新缓存
+##### 清空缓存后再重新缓存
 yum clean all 
 yum makecache
