@@ -1,4 +1,4 @@
-## aliyun-yum-repo
+## aliyun-repo
 
 ### 阿里云 yum 源
 
