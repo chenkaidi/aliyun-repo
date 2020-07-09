@@ -1,8 +1,8 @@
 CentOS6:
-wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-6.repo
+curl -o /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-6.repo
 
 CentOS7:
-wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
+curl -o /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
 
 CentOS8:
 yum install -y https://mirrors.aliyun.com/epel/epel-release-latest-8.noarch.rpm
